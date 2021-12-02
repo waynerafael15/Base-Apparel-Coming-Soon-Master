@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Base-Apparel-Coming-Soon-Master</title>
+  </head>
+  <body>
+    <section class="post">
+      <div class="container post__container">
+        <div class="post__info">
+          <img
+            class="post__logo"
+            src="./images/logo.svg"
+            alt="Logo-base-apparel"
+          />
+          <!-- <img
+          class="post__img-mobil"
+          src="./images/hero-mobile.jpg"
+          alt="hero-mobile"
+        /> -->
+
+          <div class="post__info-conte">
+            <h1 class="post__title">
+              <span class="post__title-mod">we're</span>
+              coming soon
+            </h1>
+
+            <p class="post__text">
+              Hello fellow shoppers! Were currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals
+            </p>
+
+            <form class="post__form" action="enviar.php" method="post">
+              <input
+                id="post__form-email"
+                type="email"
+                name="email"
+                required
+                placeholder="Email Adress"
+              />
+
+              <button class="post__form-btn" type="submit">
+                <img src="/images/icon-arrow.svg" alt="" />
+              </button>
+
+              <img
+                class="post__form-img-error"
+                src="/images/icon-error.svg"
+                alt="error"
+              />
+            </form>
+            <p class="post__error">Please provide a valid emaill</p>
+          </div>
+        </div>
+
+        <div class="post__imagen">
+          <div class="prueba"></div>
+          <img
+            class="post__imagen-img"
+            src="/images/hero-desktop.jpg"
+            alt="hero-desktop"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
