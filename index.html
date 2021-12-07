@@ -20,18 +20,27 @@
   </head>
   <body>
     <section class="post">
-      <div class="container post__container">
+      <img
+        class="post__logo-mobil"
+        src="./images/logo.svg"
+        alt="Logo-base-apparel"
+      />
+
+      <div class="post__mobil">
+        <img
+          class="post__mobil-img"
+          src="./images/hero-mobile.jpg"
+          alt="Logo-base-apparel"
+        />
+      </div>
+
+      <div class="post__container">
         <div class="post__info">
           <img
-            class="post__logo"
+            class="post__logo-desktop"
             src="./images/logo.svg"
             alt="Logo-base-apparel"
           />
-          <!-- <img
-          class="post__img-mobil"
-          src="./images/hero-mobile.jpg"
-          alt="hero-mobile"
-        /> -->
 
           <div class="post__info-conte">
             <h1 class="post__title">
@@ -45,7 +54,7 @@
               and our launch deals
             </p>
 
-            <form class="post__form" action="enviar.php" method="post">
+            <form class="post__form" method="post">
               <input
                 id="post__form-email"
                 type="email"
@@ -54,13 +63,13 @@
                 placeholder="Email Adress"
               />
 
-              <button class="post__form-btn" type="submit">
-                <img src="/images/icon-arrow.svg" alt="" />
+              <button class="post__form-btn" type="submit" target="_blank">
+                <img src="./images/icon-arrow.svg" alt="" />
               </button>
 
               <img
                 class="post__form-img-error"
-                src="/images/icon-error.svg"
+                src="./images/icon-error.svg"
                 alt="error"
               />
             </form>
@@ -69,16 +78,27 @@
         </div>
 
         <div class="post__imagen">
-          <div class="prueba"></div>
           <img
             class="post__imagen-img"
-            src="/images/hero-desktop.jpg"
+            src="./images/hero-desktop.jpg"
             alt="hero-desktop"
           />
         </div>
       </div>
     </section>
 
-    <script src="/app.js"></script>
+    <footer class="pie">
+      <p class="pie__text">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/waynerafael15" target="_blank"
+          >waynerafael15</a
+        >.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
